@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<!--
+	
+		Gateway Brewery Website
+		Author: Emiley Weese & Daniel Ritter
+		Date: 7/27/2021
+		
+		Filename: orderonline.htm
+		Supporting files: 
+		
+	-->
+	
+		<meta charset="UTF-8">
+		
+		<title>Gateway Brewery - Online Ordering</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css">
+		<link href="Assets/Styles/ostyles.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	
+	<body>
+		
+		<header>
+			<img src="Assets/Images/GWBrew_Logo.png" alt="Gateway Brewery">
+		</header>
+		
+			<nav class="navigation">
+			   <p><a href="index.htm">Home</a></p>
+				<p><a href="menu.htm">Our Menu</a></p>
+				<p><a href="orderonline.htm">Order Online</a></p>
+				<p><a href="aboutus.htm">About Us</a></p>
+				<p><a href="contactus.htm">Contact Us</a></p>
+			</nav>
+			
+
+			
+			<div>
+			
+				<h1>Order Online</h1>
+				
+			   <p>Please type in the box what you would like to order from Gateway Brewery!</p>
+			
+			   <form method="get" action="orderresults.htm">
+					
+				   <fieldset id="orderFields">
+					   <label for="main">Main Dish</label>
+					   <input type="text" id="main" name="main" required="required" size="30">
+					   <label for="side">Side Dish</label>
+					   <input type="text" id="side" name="side" required="required" size="30">
+					   <label for="drink">Drink</label>
+					   <input type="text" id="drink" name="drink" required="required" size="30">
+				   </fieldset>
+				   <fieldset class="submitbutton">
+					      <input type="submit" id="submit" value="Submit">
+					      <input type="reset" id="cancel" value="Cancel">
+                </fieldset>
+             </form>
+          </div>			
+			<footer>
+				<address>
+					Gateway Brewery &#183;
+					700 Clark Ave &#183;
+					St. Louis, MO 63102 &#183;
+					(314) 345 - 9600 &#183;
+					info@gatewaybrewery.com 
+				</address>
+			</footer>
+	</body>
+	
+</html>

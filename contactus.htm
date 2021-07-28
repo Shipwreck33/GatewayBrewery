@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<!--
+	
+		Gateway Brewery Website
+		Author: Emiley Weese & Daniel Ritter
+		Date: 7/27/2021
+		
+		Filename: contactus.htm
+		Supporting files: 
+		
+	-->
+	
+<meta charset="UTF-8">
+		
+		<title>Gateway Brewery - Contact Us</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css">
+		<link href="Assets/Styles/custyles.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	
+	<body>
+		
+		<header>
+			<img src="Assets/Images/GWBrew_Logo.png" alt="Gateway Brewery">
+		</header>
+		
+			<nav class="navigation">
+			   <p><a href="index.htm">Home</a></p>
+				<p><a href="menu.htm">Our Menu</a></p>
+				<p><a href="orderonline.htm">Order Online</a></p>
+				<p><a href="aboutus.htm">About Us</a></p>
+				<p><a href="contactus.htm">Contact Us</a></p>
+			</nav>
+				
+			<div>
+			
+				<h1>Contact Us</h1>
+				
+				<form method="get" action="contactresults.htm">
+				   <fieldset id="contactFields">
+					   <legend>Contact Information</legend>
+					      <label for="fName">First Name</label>
+					      <input type="text" id="fName" name="fName" required="required">
+					      <label for="lName">Last Name</label>
+					      <input type="text" id="lName" name="lName" required="required">
+					      <label for="phone">Phone</label>
+					      <input type="tel" id="phone" name="phone" placeholder="(nnn) nnn-nnnn" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d(3)[\s-]?\d{4}$">
+					   <fieldset id="other">   
+					      <legend>Let us know what you think!</legend>
+					      <label>
+					         <textarea name="feedback" id="feedback" rows="15" cols="45">
+					         </textarea>
+					      </label>
+						</fieldset>
+					</fieldset>
+					<fieldset class="submitbutton">
+					      <input type="submit" value="Submit">
+					      <input type="reset" value="Cancel">
+			      </fieldset>
+				</form>
+			
+			</div>
+			
+			<footer>
+				<address>
+					Gateway Brewery &#183;
+					700 Clark Ave &#183;
+					St. Louis, MO 63102 &#183;
+					(314) 345 - 9600 &#183;
+					info@gatewaybrewery.com 
+				</address>
+			</footer>
+			
+	</body>
+	
+</html>
