@@ -1,0 +1,26 @@
+/*
+   Gateway Brewery Style Sheet
+   
+   Author:           Emiley Weese & Daniel Ritter
+   Date:             July 27, 2021
+   Filename:         astyles.css
+   Supporting Files: None
+
+*/
+/* about us styles */
+div h1 {
+   font-size: 3em;
+   font-weight: bolder;
+   margin: 0.5em 0.1em;
+}
+div img {
+   column-count: 3;
+   width:auto;
+   height: 200px;
+   border: 1px solid grey;
+}
+div p {
+  font-size: 1.5em;
+  margin: 1em 25% 1em;
+  text-align: center;
+}

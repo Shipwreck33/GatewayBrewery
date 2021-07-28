@@ -1,0 +1,41 @@
+/*
+   Gateway Brewery Style Sheet
+   
+   Author:           Emiley Weese & Daniel Ritter
+   Date:             July 27, 2021
+   Filename:         ostyles.css
+   Supporting Files: None
+
+*/
+/* online form styles */
+div h1 {
+   font-size: 3em;
+   font-weight: bolder;
+   margin: 0.5em 0.1em;
+}
+div #orderFields {
+   font-size: 1.2em;
+   padding: 1em;
+   margin-right: 10em;
+   margin-left: 10em;
+}
+div p {
+   font-size: 1.5em;
+   margin-bottom: 1em;
+}
+div .submitbutton {
+   border: none;
+   margin: 2em auto 3em;
+}
+input[type=submit] {
+   margin-right: 1em;
+   font-size: 1.2em;
+   width: 5em;
+   height: 2em;
+}
+input[type=reset] {
+   margin-left: 1em;
+   font-size: 1.2em;
+   width: 5em;
+   height: 2em;
+}

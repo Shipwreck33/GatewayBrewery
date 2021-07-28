@@ -1,0 +1,61 @@
+/*
+   Gateway Brewery Style Sheet
+   
+   Author:           Emiley Weese & Daniel Ritter
+   Date:             July 27, 2021
+   Filename:         mstyles.css
+   Supporting Files: None
+
+*/
+/* menu section styles */
+
+h1 {
+   font-size: 3em;
+   font-weight: bolder;
+   margin: 0.5em 0.1em;
+}
+h2 {
+   font-size: 2em;
+   text-decoration: underline;
+   margin-top: 1em;
+   margin-bottom: 0.1em;
+}
+h3 {
+   font-size: 1em;
+   font-style: italic;
+   font-weight: normal;
+   margin-bottom: 1em;
+}
+#sides {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-top: 0.5em;
+}
+div.custom {
+   font-size: 1em;
+   font-style: italic;
+   font-weight: normal;
+   margin-bottom: 1em;
+}
+div p {
+   margin: 0.3em auto 0.2em;
+   font-weight: bold;
+}
+#menu-end {
+   margin-bottom: 2em;
+}
+div#toppings {
+   margin: 0.5em;
+   font-weight: bold;
+   text-decoration: underline;
+}
+div ul {
+   margin: 0.2em 42% 0.2em;
+   padding: 0;
+   display: block;
+   text-align: center;
+   columns: 2;
+   -webkit-columns: 2;
+   -mo-columns: 2;
+   list-style-type: none;
+}
