@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<!--
+	
+		Gateway Brewery Website
+		Author: Emiley Weese & Daniel Ritter
+		Date: 7/27/2021
+		
+		Filename: contactus.htm
+		Supporting files: 
+		
+	-->
+	
+<meta charset="UTF-8">
+		
+		<title>Gateway Brewery - Contact Us</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css">
+		<link href="Assets/Styles/custyles.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	
+	<body>
+		
+		<header>
+			<img src="Assets/Images/GWBrew_Logo.png" alt="Gateway Brewery">
+		</header>
+		
+			<nav class="navigation">
+			   <p><a href="index.htm">Home</a></p>
+				<p><a href="menu.htm">Our Menu</a></p>
+				<p><a href="orderonline.htm">Order Online</a></p>
+				<p><a href="aboutus.htm">About Us</a></p>
+				<p><a href="contactus.htm">Contact Us</a></p>
+			</nav>
+				
+         <article id="contentstart">
+         <h2>Contact Us</h2>
+         <form class="contact-form" action="contactresults.htm">
+            <p class="form-instructions">All fields are required</p>
+            <fieldset class="name">
+               <label for="fnameinput">
+                  First Name
+                  <input type="text" name="fname" id="fnameinput" required>
+               </label>
+               <label for="lnameinput">
+                  Last Name
+                  <input type="text" name="lname" id="lnameinput" required>
+               </label>
+               <fieldset class="contactinfo">
+               <label for="emailinput">
+                  Email
+                  <input type="email" name="email" id="emailinput" required>
+               </label>
+               <label for="phoneinput">
+                  Phone
+                  <input type="tel" name="phone" id="phoneinput" required pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+               </label>               
+               </fieldset>
+            </fieldset>
+            <fieldset class="additionalinfo">
+               <label for="other-info"></label>
+                  <label class="feedback">Tell us how we're doing!</label>
+                  <textarea name="other-info" id="other-info" rows="10" cols="50" required></textarea>
+            </fieldset>
+            <fieldset class="submitbutton">
+               <input type="submit" id="submit" value="Submit">
+               <input type="reset" id="cancel" value="Cancel">
+            </fieldset>
+         </form>
+         </article>
+			<footer>
+				<address>
+					Gateway Brewery &#183;
+					700 Clark Ave &#183;
+					St. Louis, MO 63102 &#183;
+					(314) 345 - 9600 &#183;
+					info@gatewaybrewery.com 
+				</address>
+			</footer>
+	</body>
+</html>
